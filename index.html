@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Giphy</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" /> 
+
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <div class = "row">
+        <div class="col-sm-8" id="button-collection"></div>
+        <form class = "col-sm-4" id="search-form">
+          <label for="search-input">Find a Giphy</label>
+          <input type="text" id="search-input">
+          <button id="add-search">Add</button>
+          <!-- Button triggers new movie to be added -->
+          <!-- <input id="add-search" type="submit" value="Add a button"> -->
+        </form>
+      </div>
+    </div> 
+  </div>
+  <div class ="container">
+    <div class="row">
+        <div class="col-sm-12" id="gifs">
+          
+        </div>
+    </div>
+</div>
+    
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src = "assets/javascript/giphy.js"></script>
+</body>
+
+</html>
